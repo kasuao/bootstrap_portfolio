@@ -1,0 +1,60 @@
+.img_responsive {
+	width: 250px;
+	position: relative;
+}
+
+.box-1 {
+	position: relative;
+	right: 0px;
+	background-image: url("../images/girl.jpg");
+	background-size: 270px 200px;
+}
+
+.box-2 {
+	position: relative;
+	right: -45px;
+	background-image: url("../images/food.jpg");
+	background-size: 270px 200px;
+}
+
+.box-3 {
+	position: relative;
+	right: 0px;
+	background-image: url("../images/monitor.jpg");
+	background-size: 270px 200px;
+}
+
+.box-4 {
+	position: relative;
+	right: -45px;
+	background-image: url("../images/business.jpg");
+	background-size: 270px 200px;
+}
+
+.box-5 {
+	position: relative;
+	right: 0px;
+	background-image: url("../images/nature.jpg");
+	background-size: 270px 200px;
+}
+
+.image_label {
+	position: absolute;
+	width: 270px;
+	padding: 15px 0px;
+	background: orange;
+	color: #ffffff;
+	text-align: center;
+/*	border: 1px solid black;*/
+	top: 145px;
+	font-size: 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif !important;
+}
+
+.box {
+	padding: 20px 45px;
+}
+
+.col-sm-7, .col-sm-2 {
+	clear: both;
+}
